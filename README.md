@@ -66,12 +66,19 @@ are you can see in my extensive worldwide [Travel Tips](https://tinyurl.com/hari
    (not enabled by default)
 1. Enable [Google Maps Geocoding API](https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com)
 1. Create an [API Key](https://console.cloud.google.com/apis/credentials) and ensure it has permissions to the above
-   APIs
+   APIs.
+   This may take 5 minutes for the changes to take effect
 
 1. Put your API Key in your shell and don't forget to add it to your `.bashrc` or similar:
 
 ```shell
 export GOOGLE_MAPS_API_KEY=...
+```
+
+Test you can access the places API:
+
+```shell
+curl "https://maps.googleapis.com/maps/api/geocode/json?address=Panajachel&key=$GOOGLE_MAPS_API_KEY"
 ```
 
 ## Usage
