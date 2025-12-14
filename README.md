@@ -62,7 +62,19 @@ are you can see in my extensive worldwide [Travel Tips](https://tinyurl.com/hari
 1. Set up a [Google Cloud account](https://console.cloud.google.com/)
 1. Create an [API Key](https://console.cloud.google.com/apis/credentials)
 1. Enable [Google Maps Places API](https://console.cloud.google.com/apis/library/places-backend.googleapis.com)
-1. Enable [Geocoding API](https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com)
+1. Enable [Google Maps Geocoding API](https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com)
+
+1. Put your API Key in your shell and don't forget to add it to your `.bashrc` or similar:
+
+```shell
+export GOOGLE_MAPS_API_KEY=...
+```
+
+TODO work-in-progress...
+
+```shell
+./main.go ...
+```
 
 TODO:
 
