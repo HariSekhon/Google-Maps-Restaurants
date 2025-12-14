@@ -54,7 +54,7 @@ TODO: update Codacy grade link below - it's a hash so cannot be predicted to rep
 
 Finds and opens browser tabs of restaurants within a 2km radius which have a 4.5+ star rating (both configurable).
 
-I use this a lot as I travel the world as I'm always looking for good places to eat and recording the best ones,
+I use this a lot as I travel the world since I'm always looking for good places to eat and recording the best ones,
 are you can see in my extensive worldwide [Travel Tips](https://tinyurl.com/hari-travels).
 
 ## Setup Instructions
