@@ -70,6 +70,8 @@ are you can see in my extensive worldwide [Travel Tips](https://tinyurl.com/hari
 export GOOGLE_MAPS_API_KEY=...
 ```
 
+## Usage
+
 TODO work-in-progress...
 
 ```shell
