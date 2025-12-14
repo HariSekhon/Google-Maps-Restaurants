@@ -50,18 +50,21 @@ TODO: update Codacy grade link below - it's a hash so cannot be predicted to rep
 [![SonarCloud](https://github.com/HariSekhon/Google-Maps-Restaurants/actions/workflows/sonarcloud.yaml/badge.svg)](https://github.com/HariSekhon/Google-Maps-Restaurants/actions/workflows/sonarcloud.yaml)
 [![Trivy](https://github.com/HariSekhon/Google-Maps-Restaurants/actions/workflows/trivy.yaml/badge.svg)](https://github.com/HariSekhon/Google-Maps-Restaurants/actions/workflows/trivy.yaml)
 
-## PUT CONTENT HERE
+## Summary
 
-### Customize Repo in 1 Command
+Finds and opens browser tabs of restaurants within a 2km radius which have a 4.5+ star rating (both configurable).
 
-Run this script to replace the repo name and workflow URL references across the configurations for CI/CD and
-other variety of files in this repo:
+I use this a lot as I travel the world as I'm always looking for good places to eat and recording the best ones,
+are you can see in my extensive worldwide [Travel Tips](https://tinyurl.com/hari-travels).
 
-```shell
-./customize.sh <new_repo_name>
-```
+## Setup Instructions
 
-Then delete the script and edit this README.
+1. Set up a [Google Cloud account](https://console.cloud.google.com/)
+1. Create an [API Key](https://console.cloud.google.com/apis/credentials)
+1. Enable [Google Maps Places API](https://console.cloud.google.com/apis/library/places-backend.googleapis.com)
+1. Enable [Geocoding API](https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com)
+
+TODO:
 
 **Ensure to update Codacy Grade link manually after adding this repo to Codacy since the link is a hash and therefore cannot be predicted for replacement by `./customize.sh`**
 
