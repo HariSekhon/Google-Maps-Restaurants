@@ -75,7 +75,7 @@ are you can see in my extensive worldwide [Travel Tips](https://tinyurl.com/hari
 export GOOGLE_MAPS_API_KEY=...
 ```
 
-Test you can access the places API:
+Wait 5 minutes and then test you can access the places API:
 
 ```shell
 curl "https://maps.googleapis.com/maps/api/geocode/json?address=Panajachel&key=$GOOGLE_MAPS_API_KEY"
